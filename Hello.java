@@ -1,15 +1,18 @@
 public class Hello{
 
-int sum (int a , int b)
-{
-  //int sum11  = a+b;
-return ( a+b);
-}
+
+  String yourname(String name){
+
+    return name;
+  }
 
   public static void main (String args[]){
 
 Hello obj1 = new Hello();
-int sum1 = obj1.sum(30,6);
-System.out.println(sum1);
+
+String name = obj1.yourname("raaj");
+
+
+System.out.println(name);
   }
 }
